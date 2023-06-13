@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Photographer</title>
+
+     <!--css bootstrap-->
+     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+
     <link rel="stylesheet" href="../css/estilos.css">
 
      <!--favicon-->
@@ -29,9 +33,24 @@
 
 <h2>CONTACT US</h2>
 
-<main>
+<main class="container-fluid">
+    <div class="col-sm-12 col-md-6">
+        <div class="input-group">
+        <span class="input-group-text">First and last name</span>
+        <input type="text" aria-label="First name" class="form-control">
+        <input type="text" aria-label="Last name" class="form-control">
+      </div>
 
-    <section><article class="tamanio">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+      </div>
+    </div>
+   <!-- <section><article class="tamanio">
         
 
     <form action="">
@@ -47,7 +66,7 @@
 
     <fieldset>    <!--Calendario-->
 
-        <legend>Date of event:</legend>
+        <!--<legend>Date of event:</legend>
         <p>
             <label>
                 <input type="date" name="date" id="date">;</label>
@@ -65,10 +84,12 @@
 
 
  </form>
-</article>  </section>
+</article> 
+ </section>-->
 
 </main>
 
-
+<!--script js bootstrap-->
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
